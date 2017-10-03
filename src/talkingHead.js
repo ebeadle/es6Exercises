@@ -10,8 +10,16 @@ class Song {
   }
 }
 
-//Exercise:
+let fire = new Song("talking heads", "fire");
 
+let stevie = new Song("Stevie Wonder", "Living for the City");
+
+
+console.log(stevie.getTitle());
+
+export{Song};
+
+//Exercise:
 //Add a method to the Song class that returns the string "title is {title} by {artist}.
 //Next, create an instance of it with your favorite Talking Heads song and
 //use the method you just created to log the title of the song. Then, 
